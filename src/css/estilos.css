@@ -93,27 +93,33 @@ main {
     overflow-y: scroll;
 }
 
-.tipo-eletrico {
+.tipo-eletrico,
+.listagem .pokedev.ativo.tipo-eletrico {
     background-color: #fcc719;
 }
 
-.tipo-fogo {
+.tipo-fogo, 
+.listagem .pokedev.ativo.tipo-fogo {
     background-color: #f15000d2;
 }
 
-.tipo-agua {
+.tipo-agua,
+.listagem .pokedev.ativo.tipo-agua {
     background-color: #015C98;
 }
 
-.tipo-grama {
+.tipo-grama,
+.listagem .pokedev.ativo.tipo-grama {
     background-color: #49D0B0;
 }
 
-.tipo-trevas {
+.tipo-trevas,
+.listagem .pokedev.ativo.tipo-trevas {
     background-color: #BA68C8;
 }
 
-.tipo-fada {
+.tipo-fada,
+.listagem .pokedev.ativo.tipo-fada {
     background-color: #C29791;
 }
 
@@ -148,6 +154,6 @@ main {
     padding-right: 20px;
 }
 
-.listagem .pokedev.ativo {
+/* .listagem .pokedev.ativo {
     background-color: #fa6668;
-}
+} */
